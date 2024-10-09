@@ -58,7 +58,7 @@ router.put('/:id',async(req,res)=>{
        res.status(404).json({error:'Internal Server Error'}); 
     }
 })
-
+//commend added
 router.delete('/:id',async(req,res)=>{
     try {
         const MenuList = req.params.id;
@@ -73,5 +73,5 @@ router.delete('/:id',async(req,res)=>{
        res.status(404).json({error:'Internal Server Error'}); 
     }
 })
-
+//commands fro testing purpose
 module.exports = router;
